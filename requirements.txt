@@ -1,0 +1,4 @@
+black
+ruff
+python-dotenv
+python-telegram-bot

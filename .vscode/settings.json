@@ -1,0 +1,27 @@
+{
+    "editor.formatOnSave": true,
+    "python.defaultInterpreterPath": "./env/bin/python",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+            88
+        ],
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "information",
+        "reportUnusedImport": true,
+        "reportUnusedVariable": true,
+        "reportDuplicateImport": true
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "cSpell.words": [
+        "wich"
+    ]
+}
