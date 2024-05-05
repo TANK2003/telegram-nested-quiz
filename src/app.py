@@ -16,7 +16,7 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 QUIZ_CONFIG = eval(os.getenv("QUIZ_CONFIG"))
 
 
-class BmuQuiz:
+class NestedQuiz:
     def __init__(self) -> None:
         self.application = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
 

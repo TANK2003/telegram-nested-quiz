@@ -1,5 +1,5 @@
 from src import app
 
-app = app.BmuQuiz()
+app = app.NestedQuiz()
 if __name__ == "__main__":
     app.run()

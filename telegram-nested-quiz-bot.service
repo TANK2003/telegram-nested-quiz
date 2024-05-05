@@ -1,0 +1,12 @@
+[Unit]
+Description=Telegram nested quiz BOT
+After=network.target
+StartLimitIntervalSec=0[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=<user>
+ExecStart=</path/to/folder>/venv/bin/python  main.py
+
+[Install]
+WantedBy=multi-user.target
