@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from jsonschema import validate
 
 # load global settings from .env file before all imports
-load_dotenv()
+load_dotenv(override=True)
 
 quiz_config_schema = {
     "$schema": "https://json-schema.org/draft/2020-12/schema",

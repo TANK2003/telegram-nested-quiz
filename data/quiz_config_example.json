@@ -1,0 +1,39 @@
+{
+    "id": "is_pea_created_poll",
+    "title": "Une donnée géographique VECTEUR est composée",
+    "options": [
+        {
+            "label": "De dessins et de textes sur un plan",
+            "message_to_user": "Ce sont des informations associées à chaque objet (attributs)"
+        },
+        {
+            "label": "D'informations associées à chaque objet (attributs)",
+            "quiz": {
+                "id": "do_want_to_create_pea",
+                "title": "Quel est l’intrus parmi les types d'objets géométriques simples modélisant le monde réel dans un espace à 2 dimensions ?",
+                "options": [
+                    {
+                        "label": "Le point",
+                        "message_to_user": " Il y'a que le cercle qui est en réalité une multiligne qui est l'intrus"
+                    },
+                    {
+                        "label": "Une ligne",
+                        "message_to_user": " "
+                    },
+                    {
+                        "label": "Un cercle",
+                        "message_to_user": " Bonne réponse"
+                    },
+                    {
+                        "label": "Un polygonne",
+                        "message_to_user": " "
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Je ne sais pas",
+            "message_to_user": "Ce sont des informations associées à chaque objet (attributs)"
+        }
+    ]
+}
